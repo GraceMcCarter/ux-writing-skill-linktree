@@ -57,21 +57,90 @@ This Agent Skill packages UX writing expertise into a system that Claude can app
 
 ## Installation
 
-### For Claude Code
+### What You Need
 
-1. Clone or download this repository
-2. Copy the `ux-writing` folder to `~/.claude/skills/`
-3. Restart Claude Code
+This skill works with **Claude Code** (the AI coding assistant). If you don't have Claude Code yet, visit [claude.ai/code](https://claude.ai/code) to get started.
 
-The skill will automatically activate when you work on interface copy, UX text, or product content.
+### Step-by-Step Installation
 
-### For Projects
+**Step 1: Download This Skill**
 
-To share this skill with your team:
+1. On this GitHub page, look for the green **"Code"** button near the top
+2. Click it and select **"Download ZIP"**
+3. Find the downloaded file (usually in your Downloads folder)
+4. Double-click the ZIP file to extract it
 
-1. Copy the `ux-writing` folder to `.claude/skills/` in your project repository
-2. Commit to version control
-3. Team members get the skill automatically when they pull
+**Step 2: Find Your Skills Folder**
+
+The skills folder is where Claude Code looks for custom skills. Here's how to find or create it:
+
+**On Mac:**
+1. Open Finder
+2. Press `Command + Shift + G` (this opens "Go to Folder")
+3. Type: `~/.claude/skills`
+4. Press Enter
+5. If you see "folder doesn't exist", create it:
+   - Type `~/.claude` instead and press Enter
+   - Right-click in the window and select "New Folder"
+   - Name it `skills`
+
+**On Windows:**
+1. Open File Explorer
+2. In the address bar, type: `%USERPROFILE%\.claude\skills`
+3. Press Enter
+4. If you see "folder doesn't exist", create it:
+   - Type `%USERPROFILE%\.claude` instead and press Enter
+   - Right-click and select "New" → "Folder"
+   - Name it `skills`
+
+**Step 3: Install the Skill**
+
+1. Open the extracted folder from Step 1
+2. Inside, you'll see a folder called `ux-writing`
+3. **Copy the entire `ux-writing` folder** (not just the files inside it)
+4. Paste it into your skills folder from Step 2
+
+Your skills folder should now look like this:
+```
+.claude/
+  skills/
+    ux-writing/
+      SKILL.md
+      references/
+      examples/
+      templates/
+      (and other files)
+```
+
+**Step 4: Restart Claude Code**
+
+1. Completely quit Claude Code (don't just close the window)
+2. Reopen Claude Code
+3. The skill is now installed!
+
+**Step 5: Verify It's Working**
+
+Try asking Claude Code:
+```
+Write an error message for when a payment fails
+```
+
+If the skill is working, Claude will apply UX writing best practices and create a clear, empathetic error message. You can also ask:
+```
+What UX writing skills do you have?
+```
+
+Claude should mention the UX Writing Skill in its response.
+
+### For Teams: Project Installation
+
+Want your whole team to use this skill automatically?
+
+1. Copy the `ux-writing` folder to `.claude/skills/` in your project's root directory
+2. Commit it to your repository (Git, etc.)
+3. When teammates pull the code, they'll automatically get the skill
+
+**Note**: Project skills only work when Claude Code is opened in that project folder.
 
 ## Usage Examples
 
