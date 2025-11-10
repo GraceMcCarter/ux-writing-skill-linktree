@@ -5,6 +5,51 @@ All notable changes to the UX Writing Skill will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2025-11-10
+
+### Added
+- **Accessibility Guidelines**: Comprehensive accessibility section in SKILL.md covering:
+  - Screen reader optimization (ARIA labels, descriptive links, accessible buttons)
+  - Cognitive accessibility (sentence length targets, plain language)
+  - Multi-modal communication (not relying on color alone)
+  - Accessible pattern examples with do/don't comparisons
+- **New Reference**: accessibility-guidelines.md with deep-dive coverage of:
+  - WCAG principles for UX writers (Perceivable, Operable, Understandable, Robust)
+  - Screen reader best practices with detailed examples
+  - Cognitive accessibility research (8 words = 100% comprehension)
+  - Plain language guidelines by audience type
+  - Writing for translation and localization
+  - High-stress context considerations
+  - Testing methods and tools
+  - Quick reference accessibility checklist
+- **UX Text Benchmarks**: Research-backed metrics section including:
+  - Sentence length targets by content type (buttons, titles, errors, instructions)
+  - Comprehension rates (8 words = 100%, 14 words = 90%)
+  - Character and line length optimal ranges
+  - Reading level guidelines by audience (general, professional, technical)
+  - Testing tools recommendations (Hemingway, Readable.com, MS Word)
+- **Expanded Error Patterns**: Detailed error message types with timing and location:
+  - Validation errors (inline) with examples and patterns
+  - System errors (modal/banner) with recovery flows
+  - Blocking errors (full-screen) with resolution paths
+  - Permission errors with benefit-first framing
+  - Comprehensive "what to avoid" guidance
+- **Tone Adaptation Framework**: Structured approach to tone variation:
+  - Tone variables (purpose, context, emotional state, stakes)
+  - Tone adaptation by user emotional state (frustrated, confused, confident, cautious, successful)
+  - Tone adaptation by content type (errors, success, instructions, onboarding, confirmations, empty states)
+  - Concrete examples for each tone context
+
+### Improved
+- Enhanced skill description to include accessibility, benchmarks, and expanded frameworks
+- Updated Common Mistakes section to include accessibility anti-patterns
+- Expanded Resources section to reference new accessibility guidelines
+
+### Context
+This update addresses key gaps identified through research of public content design systems (Intuit, IBM Carbon, Material Design, Shopify Polaris, Atlassian) and incorporates industry-standard accessibility practices, quantifiable metrics, and expanded frameworks while maintaining copyright compliance through original synthesis and examples.
+
+---
+
 ## [1.0.0] - 2024-11-09
 
 ### Added
@@ -39,10 +84,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Potential additions for future versions:
 
 ### Reference Materials
-- Accessibility-focused UX writing patterns
-- Localization and internationalization guidelines
 - Voice assistant and conversational UI patterns
 - Mobile vs. desktop copy considerations
+- Industry-specific pattern libraries (fintech, healthcare, e-commerce)
 
 ### Templates
 - Product announcement templates

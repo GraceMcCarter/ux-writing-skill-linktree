@@ -29,15 +29,20 @@ This Agent Skill packages UX writing expertise into a system that Claude can app
 - **Common UX patterns**: Buttons, errors, empty states, forms, notifications, onboarding
 - **Editing process**: Systematic approach to improving any interface text
 - **Voice and tone guidance**: Adapt content to brand personality and context
+- **Accessibility guidelines**: Write for screen readers, cognitive accessibility, and WCAG compliance
+- **Research-backed benchmarks**: Sentence length targets, comprehension rates, reading levels
 
 ### Reference Materials
+- **Accessibility guidelines**: Comprehensive guide for writing inclusive, accessible UX text
 - **Voice chart template**: Establish consistent brand personality
-- **Content usability checklist**: Evaluate text quality with scoring framework  
+- **Content usability checklist**: Evaluate text quality with scoring framework
 - **Detailed pattern examples**: See how different voices apply the same patterns
 
 ### Practical Tools
 - **Real-world improvements**: Before/after transformations with analysis
 - **Fillable templates**: Error messages, empty states, onboarding flows
+- **Expanded error patterns**: Validation, system, blocking, and permission errors with examples
+- **Tone adaptation framework**: Map emotional states to appropriate tone
 - **Quick reference**: Common patterns and anti-patterns
 
 ## Use Cases
@@ -176,4 +181,4 @@ This skill makes UX writing excellence systematic, scalable, and consistent — 
 
 ---
 
-**Status**: Production-ready • **Version**: 1.0.0 • **Last updated**: November 2024
+**Status**: Production-ready • **Version**: 1.1.0 • **Last updated**: November 2025
