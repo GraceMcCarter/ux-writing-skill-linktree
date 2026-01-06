@@ -111,7 +111,7 @@ All contributions should follow these principles:
 ### Style Guidelines
 
 - Use sentence case for headings
-- Use em dashes (—) not hyphens (-) for breaks
+- Use en dashes (–) not hyphens (-) for breaks
 - Keep examples realistic and specific
 - Include both "do" and "don't" examples where helpful
 - Score examples against the four quality standards when relevant
